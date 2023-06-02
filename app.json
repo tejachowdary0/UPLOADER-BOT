@@ -4,29 +4,29 @@
   "keywords": [ "URL UPLOADER"],
   "success_url": "https://t.me/Uploader_X_bot",
   "website": "https://github.com/Clinton-Abraham",
-  "repository": "https://github.com/Clinton-Abraham/UPLOADER-BOT",
+  "repository": "https://github.com/TGxMATRIX/UPLOADER-BOT",
 
   "env": {
     "WEBHOOK": {"description": "Setting this to ANYTHING will enable webhooks when in env mode",
       "value": "ANYTHING"},
 
     "BOT_TOKEN": {"description": "Your bot token, as a string.",
-        "value": ""},
+        "value": "6087356801:AAFMQaW4N-EUG-TjaToWSXD9AfD5uv6o13M"},
 
     "API_ID": {"description": "Get this value from https://my.telegram.org",
-     "value": ""},
+     "value": "11615722"},
 
     "API_HASH": {"description": "Get this value from https://my.telegram.org",
-       "value": ""},
+       "value": "c992746520e8886d3330de2ec9a1a3a7"},
 
     "OWNER_ID": {"description": "Your Telegram ID",
-       "value": ""},
+       "value": "6172502825"},
 
     "PREMIUM_USER": {"description": "If you are a telegram premium user then set this True",
        "value": "False"},
 
     "DATABASE_URL": {"description": "Your MongoDB URI",
-           "value": ""} },
+           "value": "mongodb+srv://ma:ma@cluster0.werde8j.mongodb.net/?retryWrites=true&w=majority"} },
 
   "addons": [ ],
   "buildpacks": [ {"url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"},
